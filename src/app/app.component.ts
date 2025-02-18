@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     HomeComponent,
     RouterModule,
+    FormularioComponent
 
   ],
   template: `

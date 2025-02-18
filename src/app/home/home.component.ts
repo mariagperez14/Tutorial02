@@ -16,6 +16,8 @@ import { HousingService } from '../housing.service';
       <form>
         <input type="text" placeholder="Filter by city" #filter>
         <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
+        <button class="primary" type="button" (click)="filterResults(filter.value)">Registro</button>
+        <!-- <a [routerLink]="['/formulario']">Learn More</a> -->
       </form>
     </section>
     <section class="results">
